@@ -7,7 +7,8 @@ $("#submitButton").on("click", function(event) {
    var cityName1 = $("#cityInput").val().trim();
     cityName.push(cityName1)
     $('.cuisine').show();
-    $("#listBox").empty()
+    
+    
 
 });
 // $("submitButton").click(function(){

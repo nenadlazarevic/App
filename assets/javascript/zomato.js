@@ -60,7 +60,7 @@ console.log(cityName);
         console.log(response);
             for ( i = 0; i < response.restaurants.length; i++) {
                $("#listBox").append(JSON.stringify('<h1 id=name>'+response.restaurants[i].restaurant.name +'</h1>'));
-               $("#listBox").append(JSON.stringify('<h3>'+response.restaurants[i].restaurant.location.address +'</h3>'));
+               $("#listBox").append(JSON.stringify('<p id=location>'+response.restaurants[i].restaurant.location.address +'</p>'));
                $("#listBox").append(JSON.stringify('<p id=rating>Rating: '+response.restaurants[i].restaurant.user_rating.aggregate_rating +'<p>'));
               
               

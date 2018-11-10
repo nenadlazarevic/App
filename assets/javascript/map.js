@@ -7,6 +7,7 @@ $("#submitButton").on("click", function(event) {
    var cityName1 = $("#cityInput").val().trim();
     cityName.push(cityName1)
     $('.cuisine').show();
+    $("#listBox").empty()
 
 });
 // $("submitButton").click(function(){
@@ -44,7 +45,7 @@ function displayCuisineInfo() {
 var data = $(this).attr("data-name");
 
 cuisineGlobal.push(parseFloat(data))
-$.getScript("assets/javascript/zomato.js");
+$.getScript("http://10.0.1.66:8080/assets/javascript/zomato.js");
 
 }
 

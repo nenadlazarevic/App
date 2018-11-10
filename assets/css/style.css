@@ -1,0 +1,17 @@
+#mapBox {
+    height: 500px;
+}
+.img-thumbnail{
+    height: 200px;
+    width: 200px;
+}
+.container{
+    display: inline-block;
+}
+
+
+.big-banner{
+    background-image: url(../images/header.png);
+    background-size: 100%;
+}
+
